@@ -1,0 +1,121 @@
+
+.sg {
+  text-align: center;
+  margin-left:151px;
+  margin-right:151px;
+  background-color: #41ffce;
+  color: white;
+}
+.Username{
+margin: 5px;
+}
+.Username{
+  border-radius: 8px;
+}
+.psw button{
+  border-radius: 8px;
+}
+.psw{
+margin: 5px;
+}
+.signin button{
+  text-align: center;
+  display: block;
+  width: 40%;
+  margin:6px;
+  border-radius: 8px;
+  background-color:  #41ffce;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+ .signin{
+  display: flex; 
+  justify-content: center;
+ }
+.fg{
+  margin-left: 138px;
+  margin-right: 195px;
+}
+#regis{
+  float: right;
+}
+.or{
+  margin-top:19px;
+  margin-bottom: 19px;
+}
+.container{
+  text-align: center;
+}
+.facebook button{
+ text-align: center;
+  display: block;
+  height: 35px;
+  width: 40%;
+  margin:6px;
+  border-radius: 8px;
+  background-color:  #3b5998;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  }
+  .facebook{
+  display: flex; 
+  justify-content: center;
+ }
+.google button{
+ text-align: center;
+  display: block;
+  width: 40%;
+  height: 35px;
+  margin:8px;
+  border-radius: 8px;
+  background-color: #F75;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  }
+  .google{
+  display: flex; 
+  justify-content: center;
+ }
+.epamlogin button{
+ text-align: center;
+  display: block;
+  width: 40%;
+  margin:24px;
+  height: 35px;
+  border-radius: 8px;
+  background-color:#ED6;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  }
+  .epamlogin{
+  display: flex; 
+  justify-content: center;
+ }
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
